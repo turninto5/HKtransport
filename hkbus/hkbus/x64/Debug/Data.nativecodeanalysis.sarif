@@ -1,0 +1,850 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 rapidjson::internal::Double::<unnamed-tag>::u_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5,
+                  "endLine": 25,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::Double::{ctor}",
+                  "decoratedName": "??0Double@internal@rapidjson@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::u_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 rapidjson::internal::Double::<unnamed-tag>::d_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5,
+                  "endLine": 25,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::Double::{ctor}",
+                  "decoratedName": "??0Double@internal@rapidjson@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::d_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/biginteger.h"
+                },
+                "region": {
+                  "startLine": 243,
+                  "startColumn": 49,
+                  "endLine": 243,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::BigInteger::ParseUint64",
+                  "decoratedName": "?ParseUint64@BigInteger@internal@rapidjson@@CA_KPEBD0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 18,
+                  "endLine": 135,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::DiyFp::NormalizedBoundaries",
+                  "decoratedName": "?NormalizedBoundaries@DiyFp@internal@rapidjson@@QEBAXPEAU123@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 35,
+                  "endLine": 156,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::DiyFp::ToDouble",
+                  "decoratedName": "?ToDouble@DiyFp@internal@rapidjson@@QEBANXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 241,
+                  "startColumn": 18,
+                  "endLine": 241,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::GetCachedPower",
+                  "decoratedName": "?GetCachedPower@internal@rapidjson@@YA?AUDiyFp@12@HPEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 65,
+                  "endLine": 138,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 14,
+                  "endLine": 176,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/strtod.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 15,
+                  "endLine": 180,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::internal::StrtodDiyFp",
+                  "decoratedName": "?StrtodDiyFp@internal@rapidjson@@YA_NPEBDHHPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1545,
+                  "startColumn": 60,
+                  "endLine": 1545,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$0A@U?$GenericStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1556,
+                  "startColumn": 60,
+                  "endLine": 1556,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$0A@U?$GenericStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1564,
+                  "startColumn": 31,
+                  "endLine": 1564,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$0A@U?$GenericStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1587,
+                  "startColumn": 64,
+                  "endLine": 1587,
+                  "endColumn": 79
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$0A@U?$GenericStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/reader.h"
+                },
+                "region": {
+                  "startLine": 1604,
+                  "startColumn": 37,
+                  "endLine": 1604,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericReader<rapidjson::UTF8<char>,rapidjson::UTF8<char>,rapidjson::CrtAllocator>::ParseNumber",
+                  "decoratedName": "??$ParseNumber@$0A@U?$GenericStringStream@U?$UTF8@D@rapidjson@@@rapidjson@@V?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@2@@?$GenericReader@U?$UTF8@D@rapidjson@@U12@VCrtAllocator@2@@rapidjson@@AEAAXAEAU?$GenericStringStream@U?$UTF8@D@rapidjson@@@1@AEAV?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@VCrtAllocator@2@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C33010",
+          "message": {
+            "text": "已取消选中充当索引的枚举 type 的下限。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                },
+                "region": {
+                  "startLine": 630,
+                  "startColumn": 9,
+                  "endLine": 630,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::{ctor}",
+                  "decoratedName": "??0?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@QEAA@W4Type@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 624,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 624,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 624,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 625,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 625,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 625,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 629,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Branching based on condition '0 <= type'. 'false' branch is taken\n检查了枚举值 \"type\" 是否有上限边界。"
+                        }
+                      },
+                      "kinds": [
+                        "Combination"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 629,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 629,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Branching based on condition '0'. 'false' branch is taken"
+                        }
+                      },
+                      "kinds": [
+                        "Branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 629,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 629,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                          },
+                          "region": {
+                            "startLine": 630,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+                },
+                "region": {
+                  "startLine": 2070,
+                  "startColumn": 55,
+                  "endLine": 2070,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rapidjson::GenericValue<rapidjson::UTF8<char>,rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >::SetStringRaw",
+                  "decoratedName": "?SetStringRaw@?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@AEAAXU?$GenericStringRef@D@2@AEAV?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/ieee754.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7e4456bf81b86de2e4639cbf1a80d76f852978511e506c20d0acd79ecd31f7e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/biginteger.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b311ad68b7b1f971d87f10ad636994377ff7f51f0205887b8df8bb0285dcc859"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/diyfp.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b7086c604d1e24a64e7a83fb23690e34e28397e82e80f29de115a522e498d806"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/strtod.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "973a6a567707b5d706422d432681eb6d55b33fb6a58f081ea35f1f0f0610232a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/reader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9312d9cb66f4de4308d01b097e390318128734777f0f26276a1c95e2fe5114bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Users/17121/source/repos/hkbus/hkbus/include/rapidjson/document.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "aad132b18d3b1676088801b4ce1f5483d3936f7a9b9ae3467caa7e48225a860a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/data.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "160342c8da2da72951c2cc09c5aeb7256d3a1b0444069288ca04608a1d671eab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/data.h"
+          },
+          "hashes": {
+            "sha-256": "6b735f7666a410e9c9e5f29f5904e559a410f6376d1b2bc64598e3ea872c82b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/allocators.h"
+          },
+          "hashes": {
+            "sha-256": "fd8ee841e7285c9ccf98860d541ee78382f6209c610ee163e6771b016d7bfd43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/rapidjson.h"
+          },
+          "hashes": {
+            "sha-256": "f60eb650afce159e5b2531db00846bdd2a8ec6800e7d148ae4b5bc9099f73820"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/stream.h"
+          },
+          "hashes": {
+            "sha-256": "c6cead9dffa8e5972a9e6c9a52cee754411b9eda674cbab5c86a2c78146254e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/encodings.h"
+          },
+          "hashes": {
+            "sha-256": "e83626ecf17f424c3979ff850ca188721e9ea96d9d5973f47302d5e5ab07f6b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/encodedstream.h"
+          },
+          "hashes": {
+            "sha-256": "ac15a6f9b872f129d019947505c212db502dcbdb9d9c8806fef8fc2afe3922a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/memorystream.h"
+          },
+          "hashes": {
+            "sha-256": "5381dd5981676dc6194cb384af6bcf623d9dee46b9b1508bd1e62c7cf3efac9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/meta.h"
+          },
+          "hashes": {
+            "sha-256": "52eb6de01e95e9c9e88bd70e050c985d7b37e7ac62a2320a4a06df665ecd4b9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/stack.h"
+          },
+          "hashes": {
+            "sha-256": "337acb4f1b56a9297704edbb8b4dc15e050feb143b6b2ad0f47b7d4c7a201545"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/swap.h"
+          },
+          "hashes": {
+            "sha-256": "1403bd099a25621c63a1234ca61daae0444f1538c4be7b193694cf41a76f14ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/pow10.h"
+          },
+          "hashes": {
+            "sha-256": "6b8787ecc984887cc2579d7043c08ac57614b8c59e09073565538890dcd1ff21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/error/error.h"
+          },
+          "hashes": {
+            "sha-256": "85bc3e758f3463971eb85e0c4639bc22168863227dd6fc38940fc34e533bf472"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/users/17121/source/repos/hkbus/hkbus/include/rapidjson/internal/strfunc.h"
+          },
+          "hashes": {
+            "sha-256": "07f1a7fbf266154f9638bc75876391e1d020bd5c891d639901150f3c53127ec2"
+          }
+        }
+      ]
+    }
+  ]
+}
