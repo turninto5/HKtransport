@@ -1,0 +1,6 @@
+﻿  Guide.cpp
+C:\Users\崔庆轩喜欢摆\Desktop\软工第二次结对作业\项目\HK_Bus_Systyem\HK_Bus_Systyem\Guide.cpp(167): warning C4715: “Guide::search_avalivable_line”: 不是所有的控件路径都返回值
+C:\Users\崔庆轩喜欢摆\Desktop\软工第二次结对作业\项目\HK_Bus_Systyem\HK_Bus_Systyem\Guide.cpp(231): warning C4715: “Guide::str_trans_sta”: 不是所有的控件路径都返回值
+C:\Users\崔庆轩喜欢摆\Desktop\软工第二次结对作业\项目\HK_Bus_Systyem\HK_Bus_Systyem\Guide.cpp(216): warning C4715: “Guide::str_trans_line”: 不是所有的控件路径都返回值
+C:\Users\崔庆轩喜欢摆\Desktop\软工第二次结对作业\项目\HK_Bus_Systyem\HK_Bus_Systyem\Guide.cpp(258): warning C4715: “Guide::demostrate_line”: 不是所有的控件路径都返回值
+  HK_Bus_Systyem.vcxproj -> C:\Users\崔庆轩喜欢摆\Desktop\软工第二次结对作业\项目\HK_Bus_Systyem\HK_Bus_Systyem\x64\Debug\HK_Bus_Systyem.exe
